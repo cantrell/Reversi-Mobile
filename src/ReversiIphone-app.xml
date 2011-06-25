@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<application xmlns="http://ns.adobe.com/air/application/2.0">
+
+  <iPhone>
+    <InfoAdditions>
+      <![CDATA[
+        <key>UIDeviceFamily</key>
+        <array>
+          <string>1</string>
+          <string>2</string>
+        </array>
+
+        <key>UIPrerenderedIcon</key>
+        <true/>
+      ]]>
+    </InfoAdditions>
+  </iPhone>
+
+	<id>com.christiancantrell.ireverse</id>
+	<supportedProfiles>desktop mobileDevice</supportedProfiles>
+	<filename>iReverse</filename>
+	<name>iReverse</name>
+	<version>1.1</version>
+	<description>A one or two player Reversi game.</description>
+
+	<!-- <copyright></copyright> -->
+
+	<initialWindow>
+		<autoOrients>true</autoOrients>
+    <aspectRatio>portrait</aspectRatio>
+		<fullScreen>true</fullScreen>
+		<content>ReversiIphone.swf</content>
+		<title>iReverse</title>
+		<systemChrome>none</systemChrome>
+		<transparent>false</transparent>
+		<visible>true</visible>
+	</initialWindow>
+
+  <icon>
+    <image29x29>Icon-Small.png</image29x29>
+    <image48x48>Icon-Small-48.png</image48x48>
+    <image57x57>Icon.png</image57x57>
+    <image72x72>Icon-72.png</image72x72>
+    <image512x512>iTunesArtwork.png</image512x512>
+  </icon>
+
+</application>
